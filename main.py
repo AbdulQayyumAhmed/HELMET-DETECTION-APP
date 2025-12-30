@@ -5,7 +5,7 @@ import streamlit as st
 from PIL import Image
 import numpy as np
 
-st.title("Helmet Detection App 🪖")
+st.title("Helmet Detection App")
 
 # Load the YOLO model (make sure best.pt is in the same folder)
 model = YOLO("best.pt")
